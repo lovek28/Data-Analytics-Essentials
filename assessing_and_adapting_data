@@ -1,0 +1,5 @@
+"Assessing and adapting the data for transformation":
+
+    Data Profiling: Profiling data helps you understand the characteristics of your data set, such as record counts, totals, and averages. This is crucial for validating numbers and planning data cleaning.
+    Validation: Knowing the totals and averages helps identify anomalies and validate your data later.
+    Data Cleaning: Profiling informs the data cleaning process by highlighting issues like incorrect formats or unnecessary timestamps.
