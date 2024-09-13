@@ -1,0 +1,5 @@
+Simplified explanation of a data lake and a data warehouse:
+
+    Data Lake: A data lake is a storage system that holds a large amount of raw data in its native format until it's needed. Think of it as a big container where all kinds of data (structured and unstructured) are stored before being refined for specific uses. It's useful for capturing data that might be used for future analysis but hasn't been processed yet.
+
+    Data Warehouse: A data warehouse is a system that stores refined and structured data from various sources. This data has been cleaned and organized to be easily used for reporting and analysis. It's like a well-organized library where you can quickly find the information you need.
