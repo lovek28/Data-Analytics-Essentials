@@ -1,0 +1,15 @@
+**Simplified explanation of the differences between business intelligence (BI), business analytics (BA), and data analytics (DA), using an example from running:**
+
+    *Business Intelligence (BI): This tells you where you are right now. For example, if you're running, BI would tell you your current speed or the average speed of your last run. It's about understanding your current performance with specific data points.
+
+    *Business Analytics (BA): This helps you understand trends and predict future outcomes. Continuing with the running example, BA would analyze all your past runs to identify patterns and suggest how you can improve your speed over time. It looks at various factors like the time of day you run, the type of shoes you wear, and the routes you take.
+
+    *Data Analytics (DA): This involves collecting and analyzing data to gain insights. In the running scenario, DA would be the process of gathering data from each run (like speed, distance, and time) and analyzing it to understand your performance and make informed decisions.
+
+
+**Example:**
+
+    *BI: Your current average speed is 6 miles per hour.
+    *BA: Analyzing past runs shows you run faster in the morning and with a certain type of shoes, suggesting you should run in the morning with those shoes to improve speed.
+    *DA: Collecting data from each run (speed, distance, time) and using it to understand and improve your running performance.
+
