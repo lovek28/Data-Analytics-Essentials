@@ -1,0 +1,4 @@
+
+    Organization: Tabular data is organized into tables, where each table contains information about a single subject or topic.
+    Fields and Records: Each column in a table is called a field, representing a characteristic of the subject. Each row is called a record, representing an individual instance of the subject.
+    Relational Model: In databases, tables are connected through relationships, allowing for complex data interactions and management.
