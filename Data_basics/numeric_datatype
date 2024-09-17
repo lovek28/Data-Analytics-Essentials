@@ -1,0 +1,6 @@
+ Numeric Data Types: Numeric data includes values that can be measured quantitatively, such as inventory counts, weights, and lengths.
+Subtypes: There are two major subtypes:
+
+    Integers: Whole numbers without decimals (e.g., 1, -123).
+    Floating Point Numbers (Floats): Numbers with decimal places, where precision affects memory usage.
+Currency Values: These are typically stored as integers and formatted to display in the appropriate local currency to reduce rounding errors.
