@@ -1,0 +1,4 @@
+
+    Semi-Structured Data Storage: Key-value pairs offer a lightweight way to store data without the need for tables, making them flexible and efficient.
+    Key-Value Stores: These databases are designed for fast retrieval and efficient storage, ideal for applications where quick access to simple data is crucial.
+    Use Cases: Key-value pairs are used in various scenarios, such as storing user skills in DynamoDB or tracking book prices on Amazon, where the key is an identifier (like an employee ID or ISBN) and the values are associated data.
