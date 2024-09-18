@@ -1,0 +1,25 @@
+OLTP (Online Transaction Processing)
+
+    Purpose: Designed to handle day-to-day operations and transactions of a business.
+    Real-Time Updates: When a transaction occurs (like a purchase), the OLTP database is updated immediately to reflect this.
+    Example: When you buy something at a store, the inventory and sales records are updated instantly. If a salesperson later checks the transaction details, they are accessing the OLTP database.
+    Structure: Optimized for quick, real-time transaction processing but not ideal for complex queries and analytics.
+
+OLAP (Online Analytic Processing)
+
+    Purpose: Designed to support complex queries and analytics, not real-time transactions.
+    Data Aggregation: OLAP databases aggregate data from various sources (like HR, sales, marketing) to facilitate comprehensive analysis.
+    Example: A data warehouse is an OLAP database that collects data from different departments for company-wide analytics. A data mart is a smaller, department-specific subset of a data warehouse.
+    Structure: Uses fewer tables than OLTP, making it easier to perform complex queries and generate reports.
+
+Key Differences
+
+    OLTP: Focuses on real-time transaction processing, uses many tables, and is optimized for quick updates.
+    OLAP: Focuses on data analysis, uses fewer tables, and is optimized for complex queries.
+
+
+Additional Concepts
+
+    Data Warehouse: A large OLAP database that aggregates data from multiple transactional systems for analysis.
+    Data Mart: A smaller, focused subset of a data warehouse, tailored to specific departmental needs.
+    Data Lake: Stores raw data in its native format, requiring more effort to make it useful for analysis.
