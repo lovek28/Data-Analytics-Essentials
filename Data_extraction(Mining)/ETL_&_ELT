@@ -1,0 +1,18 @@
+ETL (Extract, Transform, Load)
+
+    Extract: This is the first step where data is taken from various source systems (like transactional databases). The data is moved to a staging area in a flat file format, making it easier to handle.
+    Transform: Here, the data is reshaped and converted from its original format (used in transactional databases) to a format suitable for analysis (used in data warehouses). This transformation can involve cleaning, filtering, and structuring the data. 
+    Load: Finally, the transformed data is loaded into a data warehouse where it can be accessed and analyzed.
+
+
+ELT (Extract, Load, Transform)
+
+    Extract: Similar to ETL, data is extracted from source systems.
+    Load: Instead of transforming the data in a staging area, it is directly loaded into the data warehouse. 
+    Transform: The transformation happens within the data warehouse using SQL. This method can be more efficient for large datasets as it leverages the processing power of the database.
+
+Key Differences
+
+    Transformation Location: In ETL, transformation happens outside the database (often using programming languages like Python). In ELT, it happens inside the database using SQL.
+    Initial Load: The first time data is loaded into a data warehouse, it's called an initial load. This can be time-consuming as it involves moving all historical data.
+    Delta Loads: To keep the data warehouse updated, smaller, incremental updates called delta loads are performed regularly (e.g., weekly, daily, or hourly).
