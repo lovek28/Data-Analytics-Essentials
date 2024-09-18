@@ -1,0 +1,24 @@
+Data schemas are ways to organize data within databases. In OLAP databases, two common schemas are the star schema and the snowflake schema.
+
+Star Schema
+
+    Structure: The star schema looks like a star, with a central fact table surrounded by dimension tables.
+    Fact Table: Contains numerical data about business operations. For example, in a veterinary clinic, the fact table might store data about different procedures performed.
+    Dimension Tables: Provide additional context to the data in the fact table. These might include information about procedures, people, animals, or time periods.
+    Usage: Most queries can be answered by joining the fact table with one of the dimension tables, making it straightforward and efficient.
+nowflake Schema
+
+    Structure: Similar to the star schema but more complex, resembling a snowflake.
+    Fact Table: Same as in the star schema, it contains numerical data.
+    Dimension Tables: Unlike the star schema, dimension tables in the snowflake schema can have subcategories, creating a more intricate structure.
+    Usage: Queries might require joining multiple tables (fact table and several dimension tables), which can be more complex but allows for more detailed data organization.
+Key Differences
+
+    Star Schema: Simpler, with direct connections between the fact table and dimension tables. Easier for straightforward queries.
+    Snowflake Schema: More complex, with dimension tables having subcategories. Useful for more detailed and hierarchical data organization.
+
+
+Changing Dimensions
+
+    Quickly Changing Dimensions: Some dimensions, like customer records in a grocery store, change frequently.
+    Slowly Changing Dimensions: Others, like the states in the United States, change very infrequently.
