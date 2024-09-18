@@ -1,0 +1,33 @@
+Discrete Data
+
+    Definition: Discrete data consists of distinct, separate values. These values come from a limited set of possibilities.
+    Examples:
+        Numbers: Counting the number of students in a class (e.g., 20, 21, 22).
+        Categories: Text-based categories like country of birth, vehicle color, or favorite baseball team.
+
+    Key Point: Discrete data is often the result of counting things. For example, you can't have 20.5 students; you either have 20 or 21.
+
+Continuous Data
+
+    Definition: Continuous data can take any numeric value within a range, allowing for infinite possibilities.
+    Examples:
+        Measurements: Height of a person (e.g., 71 inches, 71.5 inches, 71.52481 inches).
+        Other Measurements: Weight of an object, air temperature.
+
+    Key Point: Continuous data is often the result of measuring things. The precision of the measurement determines the number of decimal places.
+
+Identifying Discrete vs. Continuous Data
+
+    Counting vs. Measuring:
+        Counting: If you're counting items (e.g., number of people entering a stadium), it's discrete data.
+        Measuring: If you're measuring something (e.g., height, weight), it's continuous data.
+
+Categorical Data
+
+    Definition: A type of discrete data that uses text values to group information into limited categories.
+    Examples:
+        Student Year: First-year, sophomore, junior, senior.
+        Household Pets: Dog, cat, bird, reptile, snake.
+
+    Key Point: Categorical data has a limited set of possible values, unlike text data like names, which can have unlimited possibilities.
+
