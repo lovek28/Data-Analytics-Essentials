@@ -1,0 +1,4 @@
+
+    Character Strings: Text data is stored as character strings, which can be plain text or alphanumeric. These strings can vary in length and are used in databases, spreadsheets, and programming languages.
+    Numeric Data in Strings: Numeric data stored in a string format cannot be used for mathematical operations. For instance, U.S. zip codes should be stored as text to preserve leading zeros.
+    Encoding Text: Text data is encoded using standard codes like ASCII for English and Unicode for other languages, allowing computers to represent text in numeric form.
