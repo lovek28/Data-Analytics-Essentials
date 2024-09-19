@@ -1,0 +1,22 @@
+Key Points on Handling Outliers:
+
+    Investigate Outliers:
+
+        First Step: Look closely at the outliers to understand why they are different.
+        Determine Accuracy: Check if the outlier data points are correct or if they are errors.
+
+Handling Incorrect Outliers:
+
+    Remove the Record: If the outlier is due to an error and is critical to your analysis, you might remove the entire row.
+    Replace with NA: If the outlier is an error but other data in the row is valuable, replace the outlier value with "NA" (Not Available).
+
+Handling Valid Outliers:
+
+    Leave Them In: If the outliers are correct and relevant to your analysis, you can leave them in the dataset.
+
+Techniques to Handle Outliers:
+
+    Imputation: Replace the outlier with a statistical value like the mean, median, or mode.
+    Capping: Replace the outlier with the highest or lowest non-outlier value in the dataset.
+    Predictive Analytics: Use a model to predict and replace the outlier value based on other data.
+
