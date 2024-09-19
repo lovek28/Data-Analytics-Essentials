@@ -1,0 +1,14 @@
+A percentage is a way to express a number as a fraction of 100. The term "percent" literally means "per hundred."
+
+Key Points:
+
+    Percent Change: Used to measure how much a value has increased or decreased over time.
+    Percent Difference: Used to compare the relative difference between two values.
+        Formula = | (1st - 2nd)/((1st+2nd)/2)|*100 (| | -> means absolute value (i.e. only positive value)
+
+  Example: If you have 5 dogs and your friend has 3 dogs, the percent difference is:
+        |(5-3)/((5+3)/2)|*100 = 50%
+
+  
+
+
