@@ -1,0 +1,22 @@
+Indexing in databases is like the index at the back of a book. Instead of flipping through every page to find a term, you use the index to quickly locate the pages that mention it. Similarly, a database index helps you quickly find rows that match your query without scanning every row.
+
+How Indexing Works:
+
+    Imagine you have a table with millions of rows about customers, including their state of residence. Without an index, finding all customers in New York would mean checking each row one by one, which is time-consuming.
+    With an index on the state field, the database can quickly locate rows where the state is New York, speeding up the query.
+
+Covered Queries:
+
+    If your query uses columns that are all indexed, it's called a covered query. This means the database can fulfill the query using just the index, making it very fast.
+    If not all columns in the query are indexed, the database performs a table scan, checking each row individually, which is slower.
+
+
+Trade-offs:
+
+    While indexes speed up data retrieval, they slow down data insertion and updates because the index must be updated each time the data changes.
+
+Data Subset
+
+    Limiting Rows: You can improve query performance by limiting the number of rows returned, which is useful for testing queries on large tables.
+    Temporary Tables: Temporary tables store subsets of data for quick access during analysis and are destroyed when you disconnect from the database.
+    
