@@ -1,0 +1,28 @@
+A Z-score indicates how many standard deviations a particular value is from the mean of the dataset.
+
+Calculation:
+
+    Find the Mean: Calculate the average of your dataset.
+    Subtract the Mean: For each value, subtract the mean to find the deviation from the mean.
+    Divide by Standard Deviation: Divide this deviation by the standard deviation of the dataset.
+
+Example:
+
+    Mean height = 32.7 inches
+    Standard deviation = 3.4
+    For a height of 38 inches:
+    Z-score = (38 - 32.7)/3.4
+        This means the height of 38 inches is 1.56 standard deviations above the mean.
+
+Interpretation:
+
+    Z-scores and Normal Distribution:
+        68.2% of data lies within ±1 standard deviation (Z-scores between -1 and 1).
+        95.4% of data lies within ±2 standard deviations (Z-scores between -2 and 2).
+        99.7% of data lies within ±3 standard deviations (Z-scores between -3 and 3).
+
+Usage in Data Analysis:
+
+    Identify Outliers: Values with Z-scores beyond ±3 are potential outliers.
+    Standardize Data: Z-scores allow comparison of values from different datasets.
+
