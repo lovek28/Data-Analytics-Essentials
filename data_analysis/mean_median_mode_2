@@ -1,0 +1,32 @@
+Measures of Central Tendency
+
+    Mean (Average):
+
+        Definition: The mean is the sum of all values divided by the number of values.
+        Formula: Mean = (Sum of all values) / (Number of values)
+        Example: If you have heights of 10 students: 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, the mean height is (30+31+32+33+34+35+36+37+38+39)/10 = 34.4. 
+        Usage: The mean is useful for finding the overall average but can be affected by outliers (extremely high or low values).
+
+    Median:
+
+        Definition: The median is the middle value when all values are sorted in ascending order.
+            How to Find:
+                If the number of values is odd, the median is the middle value.
+                If the number of values is even, the median is the average of the two middle values.
+
+       Example: For the heights 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, the median is (34+35)/2 = 34.5.
+       Usage: The median is less affected by outliers and gives a better central value for skewed distributions.
+
+    Mode:
+
+    Definition: The mode is the value that appears most frequently in the dataset.
+    Example: For the heights 30, 31, 32, 33, 34, 34, 35, 36, 37, 38, the mode is 34 (since it appears twice).
+    Usage: The mode is useful for identifying the most common value in a dataset. There can be more than one mode if multiple values appear with the same highest frequency.
+
+Application in Data Analysis
+
+    Mean: Useful for calculating average metrics like average test scores or average sales.
+    Median: Helpful in understanding the central tendency in skewed data, such as median income or median house prices.
+    Mode: Useful for categorical data to find the most common category, like the most common course taken by students.
+
+
