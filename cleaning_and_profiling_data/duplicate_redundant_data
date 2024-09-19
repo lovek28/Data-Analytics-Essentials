@@ -1,0 +1,22 @@
+Duplicate Data:
+
+    Definition: Duplicate rows are identical entries that appear more than once in your dataset.
+    Investigation Needed: Not all duplicates are errors. For example, two people might share the same name, or a customer might place the same order twice.
+    Action: Investigate the reason for duplicates before deciding to remove them.
+
+Removing Duplicates:
+
+    Exact Duplicates: If rows are completely identical, you can use functions like unique in R to remove the extra copies.
+    Slight Differences: If rows are not 100% identical, you'll need to manually review and decide which ones to keep.
+
+Handling Redundant Data:
+
+    Definition: Redundant data are rows that are not exact duplicates but contain similar or unnecessary information.
+    Example: Two rows for Antarctica with different population numbers.
+    Action: Use common sense and functions like filter in R to keep the most accurate data (e.g., the row with the more reasonable population number).
+
+Simplified Steps:
+
+    Identify: Look for duplicate or redundant rows in your dataset.
+    Investigate: Determine why these duplicates or redundancies exist.
+    Remove: Use appropriate functions or manual review to clean your data.
