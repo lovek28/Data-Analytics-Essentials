@@ -1,0 +1,19 @@
+Range
+
+    Definition: The range is a measure of dispersion that shows the difference between the maximum and minimum values in a dataset.
+    How to Calculate: Subtract the smallest value (minimum) from the largest value (maximum).
+    Example: If the heights in a dataset are 28, 30, 32, 34, 36, 38, the range is 38 - 28 = 10.
+    Usage: The range gives you a quick sense of how spread out the values are in your dataset.
+
+Distribution
+
+    Definition: Distribution refers to how the values in a dataset are spread out or arranged.
+    Types:
+        Frequency Distribution: Shows how often each value appears in the dataset. Often visualized using histograms.
+        Normal Distribution: A common type of distribution where values cluster around the mean and taper off symmetrically. This is often referred to as a bell-shaped curve. 
+        Nonparametric Distribution: When data does not fit any known distribution patterns, requiring special methods for analysis.
+
+Application in Data Analysis
+
+    Range: Helps you understand the variability in your data, such as the range of exam scores in a class.
+    Distribution: Helps you identify patterns and make statistical inferences, such as determining if student heights follow a normal distribution.
