@@ -1,0 +1,34 @@
+Variance
+
+    Definition: Variance measures how much the values in a dataset differ from the mean (average) of the dataset.
+    How to Calculate:
+        Find the mean (average) of the dataset.
+        Subtract the mean from each value to get the deviation for each value.
+        Square each deviation to make them positive.
+        Sum all the squared deviations. 
+        Divide by the number of values (for population variance) or by the number of values minus one (for sample variance).
+
+Standard Deviation
+
+    Definition: Standard deviation is the square root of the variance. It provides a measure of the average distance of each value from the mean.
+    How to Calculate:
+        Take the square root of the variance.
+
+    Example: If the variance of the heights is 11.6 (population variance), the standard deviation would be the square root of 11.6, which is approximately 3.4.
+
+Key Points:
+
+    Population vs. Sample:
+        Population Variance: Uses all data points in the dataset.
+        Sample Variance: Uses a subset of the data and divides by the number of values minus one.
+
+    Symbols:
+        Population Variance: σ²
+        Sample Variance: s²
+        Population Standard Deviation: σ
+        Sample Standard Deviation: s
+
+Application in Data Analysis
+
+    Variance: Helps you understand the spread of your data. A higher variance means more spread out values.
+    Standard Deviation: Provides a more intuitive measure of spread, as it is in the same units as the data.
