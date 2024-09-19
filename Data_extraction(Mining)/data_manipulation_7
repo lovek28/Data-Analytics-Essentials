@@ -1,0 +1,44 @@
+Sorting data involves reordering rows in a dataset based on specified criteria, such as ascending or descending order for numeric or text values.
+
+Filtering data involves selecting rows in a dataset that meet specific criteria to focus on relevant information.
+
+Aggregate Functions: These functions summarize data across a dataset. The main functions discussed are:
+
+    count: Counts the number of rows.
+    sum: Calculates the total of an expression.
+    min: Finds the minimum value.
+    max: Finds the maximum value.
+    average (or mean): Finds the average value.
+
+Recoding data allows for changing the values of a categorical variable based on specific criteria, such as transforming salary values into salary ranges.
+      Recoding data means changing the values of a variable based on certain rules. For example, instead of showing exact salaries, you can group them into categories like "low," "medium," and "high." If an employee earns $50,000, you can recode it to "low"; if they earn $60,000, recode it to "medium"; and if they earn $80,000, recode it to "high." This way, you simplify the data without revealing exact numbers.
+
+
+Data transposition is the process of swapping the rows and columns in a dataset. This means that the values originally in rows are moved to columns, and the values in columns are moved to rows.
+
+
+Why Use Data Transposition?
+
+    Sometimes, the way data is initially structured may not be the most useful for analysis. Transposing data can make it easier to work with and analyze.
+
+Imagine you have a table showing the number of visitors to three websites over the first five months of the year. Initially, you have:
+
+| Website | Jan | Feb | Mar | Apr | May |
+|---------|-----|-----|-----|-----|-----|
+| Site A | 100 | 150 | 200 | 250 | 300 |
+| Site B | 110 | 160 | 210 | 260 | 310 |
+| Site C | 120 | 170 | 220 | 270 | 320 |
+
+After transposing, the table would look like this:
+
+| Month | Site A | Site B | Site C |
+|-------|--------|--------|--------|
+| Jan | 100 | 110 | 120 |
+| Feb | 150 | 160 | 170 |
+| Mar | 200 | 210 | 220 |
+| Apr | 250 | 260 | 270 |
+| May | 300 | 310 | 320 |
+
+
+Normalization removes units from measurements, putting data on a consistent scale for easier comparison.
+Min-Max Normalization: This method scales data to a range of 0 to 1 by setting the smallest value to 0 and the largest to 1, with all other values adjusted proportionally. 
