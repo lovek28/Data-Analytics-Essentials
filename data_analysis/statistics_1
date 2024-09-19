@@ -1,0 +1,17 @@
+Statistics is the practice of applying mathematical techniques to data to help analyze, interpret, and present it. There are two main branches of statistics:
+
+Descriptive Statistics:
+
+    Purpose: Focuses on summarizing and describing the visible features of a dataset.
+    Techniques: Includes measures like mean (average), median (middle value), mode (most frequent value), range (difference between highest and lowest values), and standard deviation (how spread out the values are).
+    Usage: Helps you understand the basic characteristics of your data, such as the central tendency and variability.
+
+Inferential Statistics:
+
+    Purpose: Goes beyond description to make generalized conclusions and predictions about a larger population based on a sample of data.
+    Techniques: Includes hypothesis testing (determining if there is enough evidence to support a specific claim), confidence intervals (range within which a population parameter is expected to lie), and regression analysis (examining relationships between variables). 
+    Usage: Allows you to make predictions and infer trends from your data, which is crucial for data-driven decision-making.
+
+
+    Descriptive Statistics to summarize student performance data, like average grades or attendance rates.
+    Inferential Statistics to predict future trends, such as student enrollment numbers or the effectiveness of new teaching methods.
