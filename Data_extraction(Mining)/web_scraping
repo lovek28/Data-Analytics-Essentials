@@ -1,0 +1,27 @@
+Key Concepts of Web Scraping:
+
+    What is Web Scraping?
+
+        Web scraping involves writing code to automatically retrieve web pages and parse them to extract the desired information. It's useful when there's no API available to provide the data you need.
+
+Structure of Web Pages:
+
+    Web pages are built using HTML (Hypertext Markup Language). HTML uses tags (like <div>, <span>, etc.) to structure content. Understanding these tags is crucial for web scraping because they tell you where the data is located on the page.
+Example:
+
+    Imagine you want to get the rating of a movie from its IMDB page. By viewing the HTML of the page, you can find the specific tag that contains the rating. For instance, the rating might be wrapped in a <span> tag. Your code can then target this tag to extract the rating.
+
+Ethical and Legal Considerations:
+
+    Always consider the ethics and legality of web scraping. Some websites may not want you to scrape their data due to server load or proprietary concerns. It's important to respect these boundaries and avoid causing harm or violating terms of service.
+
+Challenges:
+
+    Web scraping can be temperamental. Changes in the website's structure can break your scraping code, requiring you to update it frequently.
+
+As a data analyst, web scraping can be a powerful tool for gathering data from various sources to enhance your analyses. For example, you could scrape data from multiple websites to monitor trends, gather market information, or track competitors.
+
+Practical Tips:
+
+    Learn HTML: Having a basic understanding of HTML will make it easier to identify the tags you need to scrape.
+    Use Libraries: In Python, libraries like BeautifulSoup and Scrapy can help simplify the web scraping process.
