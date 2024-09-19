@@ -1,0 +1,48 @@
+Outliers:
+
+    Definition: Outliers are data points that are significantly different from the rest of the data.
+    Example: If you have temperature data from New York and one reading shows 212 degrees Fahrenheit, that's an outlier because it's unusually high.
+
+Causes of Outliers:
+
+    Errors: Outliers can be caused by mistakes, such as incorrect measurements or data entry errors.
+        Example: The 212-degree reading might be due to a broken thermometer or someone writing down the wrong number.
+
+    True Values: Sometimes, outliers are real and valid data points.
+
+        Example: A CEO taking a $1 salary is an outlier but is still a true value.
+
+Identifying Outliers:
+
+    Scatterplots: These are graphs that show individual data points. Outliers will stand out as points far away from the rest.
+    Histograms: These group data into ranges and show how many data points fall into each range. Outliers will appear in ranges with very few data points. 
+    Boxplots: These show the distribution of data and highlight outliers. The "box" represents the middle 50% of the data, and "whiskers" extend to the rest of the data. Points outside the whiskers are outliers.
+
+
+Inter-Quartile Range (IQR):
+
+    Definition: The IQR measures the spread of the middle 50% of your data.
+    Calculation:
+        First Quartile (Q1): The 25th percentile of your data.
+        Third Quartile (Q3): The 75th percentile of your data.
+        IQR: Subtract Q1 from Q3 (IQR = Q3 - Q1).
+
+
+Example: If Q1 is 18 and Q3 is 68, then IQR = 68 - 18 = 50.
+Use in Boxplots: The "whiskers" of the boxplot extend to 1.5 times the IQR from Q1 and Q3. Points outside this range are considered outliers. 
+
+Handling Outliers:
+
+    Investigate: Determine if the outlier is an error or a valid data point.
+
+        Example: Check if the 212-degree reading was a mistake or if the thermometer was placed in an unusual location.
+
+ Remove Errors: If the outlier is due to an error, remove it from your dataset.
+
+    Example: Delete the 212-degree reading if you confirm it's a mistake.
+
+
+Keep True Values: If the outlier is a valid data point, keep it in your dataset.
+
+    Example: Keep the $1 salary data point if it's accurate.
+
