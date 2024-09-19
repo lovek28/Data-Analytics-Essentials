@@ -1,0 +1,25 @@
+Types of Missing Data:
+
+    MCAR (Missing Completely at Random):
+
+        What it is: Data is missing for no specific reason.
+        Example: Imagine you lose the last 100 rows of a randomly sorted spreadsheet. There's no pattern to why those rows are missing.
+        Impact: Usually, you can ignore this type because it doesn't affect your analysis.
+
+MAR (Missing at Random):
+
+    What it is: Data is missing due to some pattern, but the pattern is explained by other data in your dataset.
+    Example: If older people are less likely to respond to a survey, but you have their ages recorded, this is MAR.
+    Impact: Often, you can still analyze your data accurately.
+
+MNAR (Missing Not at Random):
+
+    What it is: Data is missing due to a specific reason related to the data itself.
+    Example: If a blood pressure meter can't read values above 180, and those high values are missing, this is MNAR.
+    Impact: This is serious because it can bias your results.
+
+Handling Missing Data:
+
+    Analyze Other Data: Sometimes, you can figure out the missing values by looking at other data points.
+    Interpolate: Estimate the missing values based on other observations.
+    Ignore: In some cases, you might choose to ignore the missing data, especially if it's MCAR or MAR.
