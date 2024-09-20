@@ -1,0 +1,59 @@
+Hypothesis Testing in Simple Terms
+
+    Hypothesis:
+
+        Alternative Hypothesis ((H_a)): This is what you want to prove (e.g., a new drug works).
+        Null Hypothesis ((H_0)): This is the opposite of what you want to prove (e.g., the new drug does not work).
+
+Significance Level ((alpha)):
+
+    This is the risk you're willing to take of being wrong when you reject (H_0). Common choices are 5% (0.05) or 1% (0.01).
+
+
+P-Value:
+
+    This tells you how likely it is that your results happened by chance. A small P-value means your results are likely not due to chance.
+
+
+Steps in Hypothesis Testing
+
+    Formulate Hypotheses:
+
+        Decide what you want to prove ((H_a)) and what the opposite is ((H_0)).
+        Example: (H_a): The drug works. (H_0): The drug does not work.
+
+ Choose Significance Level ((\alpha)):
+
+    Decide how much risk of being wrong you can accept. Often, this is 0.05 (5%).
+
+
+Collect Data:
+
+    Gather data by doing experiments, surveys, or observations.
+
+ Calculate P-Value:
+
+    Use statistical tests to get the P-value from your data.
+
+
+Compare P-Value and (\alpha):
+
+    If the P-value is less than or equal to (\alpha), reject (H_0) (meaning your results are significant).
+    If the P-value is greater than (\alpha), do not reject (H_0) (meaning your results are not significant).
+
+Example
+
+    Scenario: Testing a new drug.
+    (H_a): The drug works.
+    (H_0): The drug does not work.
+    Significance Level: (\alpha = 0.05) (5% risk of being wrong).
+    P-Value: Suppose it is 0.02.
+        Since 0.02 < 0.05, you reject (H_0) and conclude the drug works.
+
+Types of Errors
+
+    Type I Error: You think the drug works when it actually doesn't (false positive).
+    Type II Error: You think the drug doesn't work when it actually does (false negative).
+
+
+In your field, understanding this process helps you make data-driven decisions by determining if your findings are significant or just due to random chance.
