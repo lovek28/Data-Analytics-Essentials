@@ -1,0 +1,43 @@
+Exploratory Data Analysis (EDA)
+
+ Check the Structure of Your Data:
+
+    Objective: Ensure your data is in a format suitable for analysis.
+    Details: Most tools expect data in a tabular format with rows and columns. Verify that your dataset conforms to this structure.
+
+
+Check the Data Representation:
+
+    Objective: Familiarize yourself with the data.
+    Details: Validate data types (e.g., numerical, categorical) and ensure variables contain the expected data. This helps in detecting any anomalies early on.
+
+Explore Missing Data:
+
+    Objective: Identify and handle missing data.
+    Details: Calculate the proportion of missing data for each variable. Decide whether to:
+        Categorize as missing: Mark data as missing if it’s not critical.
+        Impute values: Replace missing values with mean, median, or other statistical measures. 
+        Remediate issues: Go back to the data source to fix extraction issues.
+
+Identify Outliers:
+
+    Objective: Detect and decide on handling outliers.
+    Details: Outliers are data points that deviate significantly from others. Determine their cause and decide whether to keep or remove them, as they can impact statistics like the mean.
+
+Compute Summary Statistics:
+
+    Objective: Summarize key characteristics of the data.
+    Details: For numeric variables, calculate:
+        Mean: Average value.
+        Median: Middle value.
+        Variance: Measure of data spread.
+        For categorical data, create frequency tables to show how often each category occurs.
+
+Check Your Assumptions:
+
+    Objective: Ensure data meets the assumptions of your analysis methods.
+    Details: For example, if using methods that assume a normal distribution, verify that your data is normally distributed. Use visualizations like histograms or Q-Q plots for this purpose.
+
+These steps provide a comprehensive approach to understanding and preparing your dataset for further analysis. Given your interest in data analysis, mastering these steps will enhance your ability to derive meaningful insights from your data.
+
+
