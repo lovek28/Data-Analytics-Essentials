@@ -1,0 +1,18 @@
+
+    Sample Mean (X-bar): The average value from your sample data.
+    Population Standard Deviation (σ): A measure of how spread out the values in the population are.
+    Sample Size (n): The number of observations in your sample.
+    Z-score: A value from a statistical table that corresponds to your desired confidence level (e.g., 95%).
+
+Confidence Interval Formula:
+CI = X-bar plus_minum Z(σ/sq.root(n))
+
+ Z-score: A value from the Z-score table that corresponds to the confidence level you want (e.g., 95% confidence level).
+Common Z-scores:
+
+    90% confidence level: Z = 1.645
+    95% confidence level: Z = 1.960
+    99% confidence level: Z = 2.576
+
+In your role, understanding confidence intervals can help you make more informed decisions based on sample data, knowing how much you can trust your estimates.
+
