@@ -14,6 +14,33 @@ P-Value:
 
     This tells you how likely it is that your results happened by chance. A small P-value means your results are likely not due to chance.
 
+What is a P-value?
+
+    P-value: The probability that the observed results are due to random chance, assuming the null hypothesis ((H_0)) is true.
+
+
+How to Interpret P-value:
+
+    Small P-value (≤ (\alpha)): Indicates strong evidence against (H_0), so you reject (H_0).
+    Large P-value (> (\alpha)): Indicates weak evidence against (H_0), so you fail to reject (H_0).
+
+Example in Simple Terms:
+Imagine you're testing a new drug to see if it works better than a placebo.
+
+    Null Hypothesis ((H_0)): The drug has no effect.
+    Alternative Hypothesis ((H_a)): The drug has an effect.
+
+You conduct an experiment and calculate the P-value.
+
+    If P-value = 0.02: There's a 2% chance that the observed effect is due to random chance. Since 0.02 is less than the common significance level of 0.05, you reject (H_0) and conclude the drug likely works.
+    If P-value = 0.10: There's a 10% chance that the observed effect is due to random chance. Since 0.10 is greater than 0.05, you fail to reject (H_0) and conclude there's not enough evidence to say the drug works.
+
+
+Key Takeaway:
+
+    A smaller P-value means stronger evidence against the null hypothesis, suggesting the results are significant and not due to random chance.
+
+
 
 Steps in Hypothesis Testing
 
