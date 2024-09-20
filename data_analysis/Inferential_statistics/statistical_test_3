@@ -1,0 +1,27 @@
+T-Test
+
+    Purpose: To determine if there is a statistically significant difference between the means of two groups.
+    When to Use: When your data is numeric and you want to compare the means of two groups.
+    Example: Testing if a drug raises a blood test score significantly.
+        Null Hypothesis ((H_0)): The drug has no effect (mean scores are the same).
+        Alternative Hypothesis ((H_a)): The drug has an effect (mean scores are different).
+        P-Value: If the P-value is small (e.g., less than 0.05), you reject (H_0) and conclude the drug has an effect.
+
+
+Chi-Square Test
+
+    Purpose: To determine if there is an association between two categorical variables.
+    When to Use: When your data is categorical (not numeric) and you want to see if two variables are related.
+    Example: Checking if the type of high school (public or private) is related to college honors performance (no honors, honors, high honors).
+        Null Hypothesis ((H_0)): No association between high school type and honors performance.
+        Alternative Hypothesis ((H_a)): There is an association between high school type and honors performance.
+        P-Value: If the P-value is small (e.g., less than 0.05), you reject (H_0) and conclude there is an association.
+
+
+Key Takeaways
+
+    T-Test: Use for numeric data to compare means of two groups.
+    Chi-Square Test: Use for categorical data to check for associations between variables.
+
+
+In your field, understanding these tests can help you analyze data more effectively, making data-driven decisions and insights.
