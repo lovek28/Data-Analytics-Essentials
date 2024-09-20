@@ -1,0 +1,43 @@
+What is Correlation?
+
+    Correlation: A statistical measure that describes how two variables move in relation to each other.
+
+Types of Correlation
+
+    Positive Correlation:
+
+        When one variable increases, the other variable also increases.
+        Example: Height and shoe size. Taller people generally have larger shoe sizes.
+
+    Negative Correlation:
+
+        When one variable increases, the other variable decreases.
+        Example: Number of classes missed and exam grades. More absences usually lead to lower exam grades.
+
+  No Correlation:
+
+    No relationship between the variables.
+    Example: A student's height and their exam performance.
+
+Visualizing Correlation
+
+    Graphs:
+        Upward Line: Positive correlation.
+        Downward Line: Negative correlation.
+        No Trend: No correlation.
+
+
+Correlation Coefficient (r)
+
+    Range: -1 to +1
+        +1: Perfect positive correlation.
+        -1: Perfect negative correlation.
+        0: No correlation.
+
+Important Note
+
+    Correlation Does Not Imply Causation:
+        Just because two variables are correlated does not mean one causes the other.
+        Example: Sunburns and ice cream consumption. Both increase on hot days, but eating ice cream doesn't cause sunburns.
+
+Understanding these concepts will help you analyze relationships between variables in your data analysis work.
