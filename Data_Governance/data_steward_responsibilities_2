@@ -1,0 +1,31 @@
+Data Stewardship Responsibilities
+
+    Data Quality:
+
+        Ensuring Accuracy and Relevance: Data stewards make sure the data is correct and useful for the organization's needs.
+        Consistency and Completeness: They monitor data to ensure it is consistent across the organization and complete, meaning no important data is missing.
+        Ongoing Validation: Regular checks are performed to maintain data quality over time. 
+        Promoting Data Reuse: Encouraging the use of existing data for new purposes to avoid duplication.
+
+     Data Security:
+
+        Confidentiality, Integrity, and Availability: Protecting data from unauthorized access (confidentiality), ensuring it is accurate and reliable (integrity), and making sure it is accessible when needed (availability).
+        Access Control: Deciding who can access the data and under what conditions.
+        Data Use Agreements: Determining when to enter agreements with third parties for data use.
+        Release Approvals: Granting permissions to share data both internally and externally.
+
+    Data Privacy:
+
+        Respecting Data Subjects: Ensuring the organization respects the rights and wishes of individuals whose data is collected.
+        Separate from Security: While related to security, privacy focuses specifically on the rights of individuals.
+
+    Regulatory Compliance:
+
+        Meeting Legal Obligations: Ensuring the organization complies with various laws and regulations related to data protection.
+        Understanding Obligations: Knowing the specific legal requirements based on the organization's nature, the data it collects, and where it operates.
+
+
+Summary
+Data stewards play a crucial role in managing an organization's data by ensuring its quality, security, privacy, and compliance with regulations. Their responsibilities can vary, but they generally focus on these four key areas to ensure data is handled properly.
+
+In your role, understanding these responsibilities can help you ensure that the data you work with is managed effectively and securely.
