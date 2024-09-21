@@ -1,0 +1,37 @@
+
+    Importance of Data Quality Validation:
+
+        Regular Validation: Ensuring data quality through regular validation helps maintain its accuracy and reliability, which is crucial for providing business value.
+        Initial and Ongoing Checks: Validation should be performed both when new data is brought into the organization and on an ongoing basis.
+
+    Automated Validation Techniques:
+
+        Data Type Requirements: Automated checks can confirm that data fields meet specific requirements. For example, ensuring zip codes are nine digits long.
+        Record Counts: Comparing the number of data points in the source system with those loaded into the master data store to identify discrepancies.
+
+    Handling Validation Failures:
+
+        Partial Importing: Deciding whether to import only the valid rows or reject the entire dataset when some rows fail validation. This decision is context-specific and made by data stewards.
+
+    Non-Automated Validation Methods:
+
+        Spot Checks and Audits: Sampling datasets to perform spot checks or audits can help identify errors, which may trigger a deeper investigation.
+        Cross-Validation: Comparing new data with existing data to flag inconsistencies.
+        Human Judgment: Using reasonable expectations to identify outlier values. For example, a customer age listed as 150 years old would be flagged for investigation.
+        Data Profiling: Understanding the normal parameters of a dataset to identify outliers more effectively.
+
+
+Example to Illustrate
+Imagine you are loading a dataset of customer information:
+
+    Automated Check: The system checks that all zip codes are nine digits. If a zip code has only five digits or contains letters, it fails validation.
+    Record Count: You expect 10,000 records, but only 9,500 are loaded. This discrepancy indicates a potential issue.
+    Spot Check: You manually review a small sample of records. If errors are found, a more thorough investigation is initiated.
+    Cross-Validation: New customer data is compared with existing records to ensure consistency.
+    Human Judgment: An age of 150 years is flagged as an outlier and investigated further.
+
+
+Summary
+Validating data quality involves both automated and non-automated methods to ensure data accuracy, consistency, and reliability. Regular validation helps maintain high data quality, which is essential for effective decision-making.
+
+In your role, understanding these validation techniques can help you ensure that the data you work with is accurate and reliable. 
